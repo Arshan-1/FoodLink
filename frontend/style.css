@@ -1,0 +1,115 @@
+/* General styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ff6f61;
+    color: #333;
+}
+
+h1, h2 {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: #ff6f61;
+}
+
+p {
+    text-align: center;
+    color: #555;
+}
+
+a {
+    color: #ff6f61;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Containers for various pages */
+.welcome-container,
+.login-container,
+.signup-container,
+.dashboard-container {
+    max-width: 450px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #d7c8af;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(186, 163, 33, 0.1);
+    text-align: center;
+}
+
+/* Buttons */
+.button, button {
+    padding: 12px 20px;
+    margin-top: 20px;
+    background-color: #ff6f61;
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover, button:hover {
+    background-color: #ff4c3b;
+}
+
+form button {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+}
+
+form {
+    margin-top: 20px;
+}
+
+/* Input fields */
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Responsive Logo */
+img {
+    max-width: 200px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    color: #333;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+/* List of donations */
+#donationsList, #availableDonationsList {
+    margin-top: 20px;
+    border-top: 1px solid #ddd;
+    padding-top: 10px;
+}
+
+#donationsList div, #availableDonationsList div {
+    padding: 10px;
+    background-color: #f0f0f0;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+    .welcome-container,
+    .login-container,
+    .signup-container,
+    .dashboard-container {
+        max-width: 90%;
+        padding: 20px;
+    }
+}

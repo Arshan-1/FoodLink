@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donor Dashboard - FoodLink</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="dashboard-container">
+        <h2>Welcome, Donor</h2>
+        <form id="donateForm">
+            <input type="text" id="foodType" placeholder="Type of Food" required>
+            <input type="number" id="quantity" placeholder="Quantity" required>
+            <button type="submit">Donate Food</button>
+        </form>
+        <h3>My Donations</h3>
+        <div id="donationsList"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
